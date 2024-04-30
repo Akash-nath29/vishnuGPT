@@ -43,7 +43,7 @@ const Chat = () => {
       <textarea
         name="response"
         id="response"
-        className="bg-transparent border-white border-10 text-white text-lg p-5  absolute bottom-120 w-full text-center h-auto" disabled
+        className="bg-transparent border-white border-10 text-white text-lg p-5  absolute bottom-10 w-full text-center h-[75vh]" disabled
       ></textarea>
       <br />
       <br />
