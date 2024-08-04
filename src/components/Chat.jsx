@@ -32,7 +32,10 @@ const Chat = () => {
               .then((response) => response.json())
               .then((data) => {
                 document.getElementById("response").value = data.response;
-              });
+              })
+              .catch(error){
+              document.getElementById("response").value = error;
+              };
           }}
         >
           Send
