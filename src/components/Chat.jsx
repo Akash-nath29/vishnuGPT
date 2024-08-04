@@ -20,7 +20,7 @@ const Chat = () => {
           className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 absolute top-[90px] w-80 md:w-auto"
           onClick={() => {
             let query = document.getElementById("query").value;
-            const link = "https://vishnu-gpt-backend.vercel.app/api/";
+            const link = "https://53450ce9-68ce-48f2-8f5e-545f61eac7f3-00-1anc248h02mgb.sisko.replit.dev/api/";
             document.getElementById("response").value = "Loading...";
             fetch(link, {
               method: "POST",
